@@ -21,6 +21,8 @@ curl https://httpbin.org/get
 }
 ```
 
+---
+
 ### -vオプション
 ```
 curl -v https://httpbin.org/get
@@ -91,6 +93,8 @@ curl -v https://httpbin.org/get
 }
 * Connection #0 to host httpbin.org left intact
 ```
+
+---
 
 ### -iオプション
 ```
