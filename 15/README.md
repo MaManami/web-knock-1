@@ -18,3 +18,6 @@ content-type: application/json
 x-content-type-options: nosniff
 date: Wed, 28 Oct 2026 13:25:52 GMT
 ```
+
+### 気づいた点
+通常のGETリクエストと異なり、ページの本体データ（JSONなど）が返ってこず、メタ情報であるレスポンスヘッダーのみ返されている。
