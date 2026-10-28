@@ -6,7 +6,7 @@
 curl https://httpbin.org/get
 ```
 
-帰ってきたJSON
+*帰ってきたJSON*
 ```
 {
   "args": {},
@@ -28,7 +28,7 @@ curl https://httpbin.org/get
 curl -v https://httpbin.org/get
 ```
 
-帰ってきたJSON
+*帰ってきたJSON*
 ```
 * Host httpbin.org:443 was resolved.
 * IPv6: 64:ff9b::12e3:b260, 64:ff9b::103a:2adc, 64:ff9b::389:3020
@@ -101,7 +101,7 @@ curl -v https://httpbin.org/get
 -i https://httpbin.org/get
 ```
 
-帰ってきたJSON
+*帰ってきたJSON*
 ```
 HTTP/2 200 
 access-control-allow-credentials: true
