@@ -1,4 +1,5 @@
 # 12. curlコマンドでGETリクエストを送る
 ## curlコマンドを使って https://httpbin.org/get にGETリクエストを送り，返ってきたレスポンスを確認せよ．-v（または-i）オプションを付けた場合との違いも確認すること．
 
-
+### curlコマンド
+> curl https://httpbin.org/get
