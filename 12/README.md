@@ -7,7 +7,7 @@
 curl https://httpbin.org/get
 ```
 
-**帰ってきたJSON**
+**帰ってきたJSON**/
 リクエストのメソッド（GET）や、アクセス元（origin）、クライアント情報である User-Agent が curl/8.5.0 として正しくサーバーに認識され、そのまま返されていることがわかる。
 ```
 {
@@ -31,7 +31,7 @@ curl https://httpbin.org/get
 curl -v https://httpbin.org/get
 ```
 
-**帰ってきたJSON**
+**帰ってきたJSON**/
 >  で始まる行（送信したリクエストヘッダー）と <  で始まる行（受信したレスポンスヘッダー）を比較することで、HTTP通信における「お互いの往復の会話」を完璧に追跡・検証することができる。
 ```
 * Host httpbin.org:443 was resolved.
@@ -106,7 +106,7 @@ curl -v https://httpbin.org/get
 -i https://httpbin.org/get
 ```
 
-**帰ってきたJSON**
+**帰ってきたJSON**/
 最上部に HTTP/2 200（成功）や content-type: application/json といったヘッダー情報が追加され、サーバーとの通信状態が正常であることやデータの形式を明確に把握できるようになります。
 ```
 HTTP/2 200 
