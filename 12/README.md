@@ -107,7 +107,7 @@ curl -v https://httpbin.org/get
 ```
 
 **帰ってきたJSON**\
-最上部に HTTP/2 200（成功）や content-type: application/json といったヘッダー情報が追加され、サーバーとの通信状態が正常であることやデータの形式を明確に把握できるようになります。
+最上部に HTTP/2 200（成功）や content-type: application/json といったヘッダー情報が追加され、サーバーとの通信状態が正常であることやデータの形式を明確に把握できるようになる。
 ```
 HTTP/2 200 
 access-control-allow-credentials: true
