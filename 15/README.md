@@ -20,7 +20,7 @@ x-content-type-options: nosniff
 date: Wed, 28 Oct 2026 13:25:52 GMT
 ```
 
-**※参考 通常のGETリクエストの出力結果（問題１２より）**\
+**※参考 通常のGETリクエストの出力結果（問題１２より）**
 ```
 HTTP/2 200 
 access-control-allow-credentials: true
